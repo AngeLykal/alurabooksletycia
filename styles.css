@@ -1,0 +1,12 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+    }
+    body {
+    background-color: var(--cor-de-fundo);
+    
+    }
+     <link rel=”stylesheet”
+href=”reset.css”>
+    h1 {
+    background-color: white;
+    }
