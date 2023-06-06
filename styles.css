@@ -1,12 +1,3 @@
-:root {
-    --cor-de-fundo: #EBECEE;
-    }
-    body {
-    background-color: var(--cor-de-fundo);
-    
-    }
-     <link rel=”stylesheet”
-href=”reset.css”>
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
