@@ -12,7 +12,6 @@ scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;7
     00&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="styles.css">
 </head>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -77,11 +76,14 @@ será sua próxima leitura?">
     <section class="carrossel">
 
 <h2 class="carrossel__titulo">Novos lançamentos</h2>
-<!-- Slider main container -->
+    <!-- Slider main container -->
 <div class="swiper">
     <!-- Additional required wrapper -->
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
     <div class="swiper-wrapper">
-      <!-- Slides -->
+    <!-- Slides -->
       <div class="swiper-slide"><img src="img/ApacheKafka.svg"
                 alt="Livro sobre apache kafka e spring boot da alura
         books"></div>
@@ -96,9 +98,6 @@ será sua próxima leitura?">
       <div class="swiper-slide"><img src="img/Acessibilidade.svg"
                 alt="livro sobre acessibilidade">
     </div>
-    
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
   
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
@@ -108,5 +107,17 @@ será sua próxima leitura?">
     <div class="swiper-scrollbar"></div>
   </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            sliderPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 </html>
