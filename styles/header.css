@@ -38,7 +38,7 @@
 .lista-menu__titulo,
 .lista-menu__item {
   padding: 1em;
-  background-color: var(--branco);
+  background-color: var(--azul-degrade);
 }
 
 .lista-menu__titulo {
@@ -47,7 +47,7 @@
 }
 
 .lista-menu__link {
-  background: var(--azul-degrade);
+  background: var(--branco);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
