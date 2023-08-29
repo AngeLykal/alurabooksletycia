@@ -47,7 +47,7 @@
 }
 
 .lista-menu__link {
-  background: var(--azul-degrade);
+  background: var(--branco);
   -webkit-background-clip: text;
   -webkit-text-fill-color: darkblue;
   background-clip: text;
