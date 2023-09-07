@@ -139,7 +139,7 @@
   }
 
 .lista-menu__item:hover>.lista-menu__link {
-  -webkit-text-fill-color: var(--branco);
+  -webkit-text-fill-color: var(#fffffffc);
   text-decoration: none;
   }
   }
